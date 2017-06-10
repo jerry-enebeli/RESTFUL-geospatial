@@ -1,0 +1,21 @@
+{
+  "name": "autodetect",
+  "version": "1.0.0",
+  "description": "a location detection app ",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "helmet": "^3.5.0",
+    "morgan": "^1.8.1",
+    "mongoose": "^4.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js",
+    "start": "node server.js"
+  },
+  "author": "jerry enebeli",
+  "license": "ISC"
+}
